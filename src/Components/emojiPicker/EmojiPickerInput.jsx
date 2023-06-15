@@ -9,7 +9,7 @@ export default function EmojiPickerinput() {
   return (
     <>
       <input ref={ref} type="text" placeholder="Wenas" />
-      <EmojiPicker></EmojiPicker>
+      <EmojiPicker ref={ref}></EmojiPicker>
     </>
 
   )
